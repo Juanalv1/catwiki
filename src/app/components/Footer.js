@@ -8,7 +8,7 @@ const Footer = () => {
       <img src="/CatLogoWhite.svg"/>
       <div className="flex items-center mt-2 justify-center">
         <FaRegCopyright  className="w-4 h-4 mr-2"/>
-        <p className="text-sm">Created by Juan - Devchallenge.io 2024</p>
+        <p className="text-sm">Created by <a href='https://github.com/Juanalv1' className='text-white border-b border-b-white pb-0.5 font-bold'>Juan</a> - Devchallenge.io 2024</p>
       </div>
     </div>
   </footer>
