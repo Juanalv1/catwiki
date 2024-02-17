@@ -42,7 +42,7 @@ export default function Home() {
           <p className="text-2xl font-bold mt-4 lg:mb-6">66+ Breeds for you to discover</p>
           <div className="grid grid-cols-2 gap-y-16 mt-4 w-full justify-center items-center place-content-center place-items-center lg:grid-cols-4 lg:mt-8">
             {cats.slice(0, 4).map((cat, index) => (
-              <Link href={`http://localhost:3000/breeds/${cat.name}`} key={index}>
+              <Link href={`/breeds/${cat.name}`} key={index}>
                 <CatCard name={cat.name} imgid={cat.reference_image_id} />
               </Link>
             ))}
