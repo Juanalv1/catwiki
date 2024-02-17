@@ -4,7 +4,7 @@ import TopCard from '../components/TopCard'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-const page = () => {
+const Page = () => {
   const [breeds, setBreeds] = useState([])
   const fetchData = async () => {
     const res = await fetch('https://catwikiapi-jet.vercel.app/breeds?limit=5')
@@ -30,4 +30,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

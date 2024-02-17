@@ -5,7 +5,7 @@ import Navbar from '@/app/components/Navbar'
 import React, { useEffect, useState } from 'react'
 
 
-const page = ({params}) => {
+const Page = ({params}) => {
   const [breed, setBreed] = useState({})
   const {name} = params
   useEffect(() => {
@@ -69,5 +69,5 @@ const page = ({params}) => {
   )
 }
 
-export default page
+export default Page
 
